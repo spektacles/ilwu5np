@@ -1,3 +1,18 @@
 <Html>
+  <body>
 <h1>Hello</h1>
+<script>
+        let password = "ilwu5n9";
+        (function passcodeprotect() {
+            let passcode = prompt("Enter PassCode");
+            while (passcode !== password) {
+                alert("Incorrect PassCode");
+                return passcodeprotect();
+            }
+        }());
+        alert('Welcome To The TP..!');
+        document.getElementById("container")
+            .style.display = "block";
+    </script>
+  </body>
 </Html>
