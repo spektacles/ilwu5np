@@ -1,9 +1,9 @@
 body {
 	background-color: ead1ff;
 	margin-top: 1em;
-	margin-left:5%;
-	margin-right:20%;
-	/* margin-bottom:100px;*/
+		/* margin-left:5%;
+		margin-right:20%;
+		margin-bottom:100px;*/
 	padding:0; 
 }
 
@@ -19,12 +19,13 @@ body {
     height:0px; //same height as the margin to the bottom of the body
 }
 */
-div {
-  max-width: fit-content;
+div.content {
+  max-width: 800px;
   margin-left: auto;
-  margin-right:auto;
+  margin-right: auto;
   padding: 5px;
-}
+} 
+
 
 div.calendar {
   position: relative;
@@ -64,5 +65,4 @@ a:visited {
   background-color: transparent;
   text-decoration: none;
 }
-
 
